@@ -1,9 +1,10 @@
 //
 //  stestUITests.swift
-//  stestUITests
+//  SwiftUIFirstTutorialApp
 //
-//  Created by Aftab on 11/04/2021.
+//  Created by @VVings___Aftab on 11/04/2021.
 //
+
 
 import XCTest
 

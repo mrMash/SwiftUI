@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FCC24307262303B3004141B6 /* stestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC24306262303B3004141B6 /* stestApp.swift */; };
+		FCC24307262303B3004141B6 /* SwiftUIFirstTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC24306262303B3004141B6 /* SwiftUIFirstTutorialApp.swift */; };
 		FCC24309262303B3004141B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC24308262303B3004141B6 /* ContentView.swift */; };
 		FCC2430B262303B5004141B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC2430A262303B5004141B6 /* Assets.xcassets */; };
 		FCC2430E262303B5004141B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCC2430D262303B5004141B6 /* Preview Assets.xcassets */; };
 		FCC24319262303B5004141B6 /* stestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC24318262303B5004141B6 /* stestTests.swift */; };
 		FCC24324262303B5004141B6 /* stestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC24323262303B5004141B6 /* stestUITests.swift */; };
+		FCC24335262383A5004141B6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC24334262383A5004141B6 /* CircleImage.swift */; };
+		FCC2433A262386C4004141B6 /* Mapview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC24339262386C4004141B6 /* Mapview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +35,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FCC24303262303B3004141B6 /* stest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCC24306262303B3004141B6 /* stestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stestApp.swift; sourceTree = "<group>"; };
+		FCC24303262303B3004141B6 /* SwiftUIFirstTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIFirstTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC24306262303B3004141B6 /* SwiftUIFirstTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIFirstTutorialApp.swift; sourceTree = "<group>"; };
 		FCC24308262303B3004141B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCC2430A262303B5004141B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCC2430D262303B5004141B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCC2430F262303B5004141B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCC24314262303B5004141B6 /* stestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC24314262303B5004141B6 /* SwiftUIFirstTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFirstTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC24318262303B5004141B6 /* stestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stestTests.swift; sourceTree = "<group>"; };
 		FCC2431A262303B5004141B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FCC2431F262303B5004141B6 /* stestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC2431F262303B5004141B6 /* SwiftUIFirstTutorialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIFirstTutorialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCC24323262303B5004141B6 /* stestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stestUITests.swift; sourceTree = "<group>"; };
 		FCC24325262303B5004141B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCC24334262383A5004141B6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		FCC24339262386C4004141B6 /* Mapview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mapview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +89,9 @@
 		FCC24304262303B3004141B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FCC24303262303B3004141B6 /* stest.app */,
-				FCC24314262303B5004141B6 /* stestTests.xctest */,
-				FCC2431F262303B5004141B6 /* stestUITests.xctest */,
+				FCC24303262303B3004141B6 /* SwiftUIFirstTutorial.app */,
+				FCC24314262303B5004141B6 /* SwiftUIFirstTutorialTests.xctest */,
+				FCC2431F262303B5004141B6 /* SwiftUIFirstTutorialUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,8 +99,10 @@
 		FCC24305262303B3004141B6 /* stest */ = {
 			isa = PBXGroup;
 			children = (
-				FCC24306262303B3004141B6 /* stestApp.swift */,
+				FCC24306262303B3004141B6 /* SwiftUIFirstTutorialApp.swift */,
+				FCC24339262386C4004141B6 /* Mapview.swift */,
 				FCC24308262303B3004141B6 /* ContentView.swift */,
+				FCC24334262383A5004141B6 /* CircleImage.swift */,
 				FCC2430A262303B5004141B6 /* Assets.xcassets */,
 				FCC2430F262303B5004141B6 /* Info.plist */,
 				FCC2430C262303B5004141B6 /* Preview Content */,
@@ -133,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FCC24302262303B3004141B6 /* stest */ = {
+		FCC24302262303B3004141B6 /* SwiftUIFirstTutorial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCC24328262303B5004141B6 /* Build configuration list for PBXNativeTarget "stest" */;
+			buildConfigurationList = FCC24328262303B5004141B6 /* Build configuration list for PBXNativeTarget "SwiftUIFirstTutorial" */;
 			buildPhases = (
 				FCC242FF262303B3004141B6 /* Sources */,
 				FCC24300262303B3004141B6 /* Frameworks */,
@@ -145,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = stest;
+			name = SwiftUIFirstTutorial;
 			productName = stest;
-			productReference = FCC24303262303B3004141B6 /* stest.app */;
+			productReference = FCC24303262303B3004141B6 /* SwiftUIFirstTutorial.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FCC24313262303B5004141B6 /* stestTests */ = {
+		FCC24313262303B5004141B6 /* SwiftUIFirstTutorialTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCC2432B262303B5004141B6 /* Build configuration list for PBXNativeTarget "stestTests" */;
+			buildConfigurationList = FCC2432B262303B5004141B6 /* Build configuration list for PBXNativeTarget "SwiftUIFirstTutorialTests" */;
 			buildPhases = (
 				FCC24310262303B5004141B6 /* Sources */,
 				FCC24311262303B5004141B6 /* Frameworks */,
@@ -163,14 +169,14 @@
 			dependencies = (
 				FCC24316262303B5004141B6 /* PBXTargetDependency */,
 			);
-			name = stestTests;
+			name = SwiftUIFirstTutorialTests;
 			productName = stestTests;
-			productReference = FCC24314262303B5004141B6 /* stestTests.xctest */;
+			productReference = FCC24314262303B5004141B6 /* SwiftUIFirstTutorialTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FCC2431E262303B5004141B6 /* stestUITests */ = {
+		FCC2431E262303B5004141B6 /* SwiftUIFirstTutorialUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FCC2432E262303B5004141B6 /* Build configuration list for PBXNativeTarget "stestUITests" */;
+			buildConfigurationList = FCC2432E262303B5004141B6 /* Build configuration list for PBXNativeTarget "SwiftUIFirstTutorialUITests" */;
 			buildPhases = (
 				FCC2431B262303B5004141B6 /* Sources */,
 				FCC2431C262303B5004141B6 /* Frameworks */,
@@ -181,9 +187,9 @@
 			dependencies = (
 				FCC24321262303B5004141B6 /* PBXTargetDependency */,
 			);
-			name = stestUITests;
+			name = SwiftUIFirstTutorialUITests;
 			productName = stestUITests;
-			productReference = FCC2431F262303B5004141B6 /* stestUITests.xctest */;
+			productReference = FCC2431F262303B5004141B6 /* SwiftUIFirstTutorialUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FCC242FE262303B3004141B6 /* Build configuration list for PBXProject "stest" */;
+			buildConfigurationList = FCC242FE262303B3004141B6 /* Build configuration list for PBXProject "SwiftUIFirstTutorial" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FCC24302262303B3004141B6 /* stest */,
-				FCC24313262303B5004141B6 /* stestTests */,
-				FCC2431E262303B5004141B6 /* stestUITests */,
+				FCC24302262303B3004141B6 /* SwiftUIFirstTutorial */,
+				FCC24313262303B5004141B6 /* SwiftUIFirstTutorialTests */,
+				FCC2431E262303B5004141B6 /* SwiftUIFirstTutorialUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCC24309262303B3004141B6 /* ContentView.swift in Sources */,
-				FCC24307262303B3004141B6 /* stestApp.swift in Sources */,
+				FCC2433A262386C4004141B6 /* Mapview.swift in Sources */,
+				FCC24307262303B3004141B6 /* SwiftUIFirstTutorialApp.swift in Sources */,
+				FCC24335262383A5004141B6 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		FCC24316262303B5004141B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FCC24302262303B3004141B6 /* stest */;
+			target = FCC24302262303B3004141B6 /* SwiftUIFirstTutorial */;
 			targetProxy = FCC24315262303B5004141B6 /* PBXContainerItemProxy */;
 		};
 		FCC24321262303B5004141B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FCC24302262303B3004141B6 /* stest */;
+			target = FCC24302262303B3004141B6 /* SwiftUIFirstTutorial */;
 			targetProxy = FCC24320262303B5004141B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -474,7 +482,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stest.app/stest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIFirstTutorial.app/SwiftUIFirstTutorial";
 			};
 			name = Debug;
 		};
@@ -496,7 +504,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stest.app/stest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIFirstTutorial.app/SwiftUIFirstTutorial";
 			};
 			name = Release;
 		};
@@ -543,7 +551,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FCC242FE262303B3004141B6 /* Build configuration list for PBXProject "stest" */ = {
+		FCC242FE262303B3004141B6 /* Build configuration list for PBXProject "SwiftUIFirstTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCC24326262303B5004141B6 /* Debug */,
@@ -552,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCC24328262303B5004141B6 /* Build configuration list for PBXNativeTarget "stest" */ = {
+		FCC24328262303B5004141B6 /* Build configuration list for PBXNativeTarget "SwiftUIFirstTutorial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCC24329262303B5004141B6 /* Debug */,
@@ -561,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCC2432B262303B5004141B6 /* Build configuration list for PBXNativeTarget "stestTests" */ = {
+		FCC2432B262303B5004141B6 /* Build configuration list for PBXNativeTarget "SwiftUIFirstTutorialTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCC2432C262303B5004141B6 /* Debug */,
@@ -570,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FCC2432E262303B5004141B6 /* Build configuration list for PBXNativeTarget "stestUITests" */ = {
+		FCC2432E262303B5004141B6 /* Build configuration list for PBXNativeTarget "SwiftUIFirstTutorialUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FCC2432F262303B5004141B6 /* Debug */,
